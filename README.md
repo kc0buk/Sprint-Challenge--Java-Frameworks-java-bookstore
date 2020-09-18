@@ -59,6 +59,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 ### Task 1: Project Set Up
 
 - [x] Create a forked copy of this project
+- [x] Submit pull request (https://github.com/kc0buk/Sprint-Challenge--Java-Frameworks-java-bookstore/pull/1)
 - [x] Add your team lead as collaborator on Github
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
@@ -90,21 +91,24 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 - **You are tasked to do the following**
 
-- [ ] Currently, Books are not addressed in security so those routes cannot be accessed. Setup security so that the following access is available:
-  - [ ] GET /books/books - any user with the role ADMIN or DATA can access
-  - [ ] GET /books/book/{id} - any user with role ADMIN or DATA can access
-  - [ ] POST /books/book - any user with role ADMIN can access
-  - [ ] PUT /books/book/{id} - any user with role ADMIN can access
-  - [ ] DELETE /books/book/{id} - any user with role ADMIN can access
+- [x] Currently, Books are not addressed in security so those routes cannot be accessed. Setup security so that the
+ following access is available:
+  - [x] GET /books/books - any user with the role ADMIN or DATA can access
+  - [x] GET /books/book/{id} - any user with role ADMIN or DATA can access
+  - [x] POST /books/book - any user with role ADMIN can access
+  - [x] PUT /books/book/{id} - any user with role ADMIN can access
+  - [x] DELETE /books/book/{id} - any user with role ADMIN can access
 
-- [ ] When a client tries searching for or updating a book that does not exist, a generic exception is sent back to the client. Change this so our custom exception ResourceNotFoundException is returned instead.
+- [x] When a client tries searching for or updating a book that does not exist, a generic exception is sent back to
+ the client. Change this so our custom exception ResourceNotFoundException is returned instead.
 
-- [ ] Add unit test for the Book Service using the database as test data. The structure is already in place, you just need to write the tests for the following:
-  - [ ] findAll
-  - [ ] findBookById that succeeds
-  - [ ] findBookById that fails
-  - [ ] delete
-  - [ ] save a new book
+- [x] Add unit test for the Book Service using the database as test data. The structure is already in place, you just
+ need to write the tests for the following:
+  - [x] findAll
+  - [x] findBookById that succeeds
+  - [x] findBookById that fails
+  - [x] delete
+  - [x] save a new book
 
 - [ ] Add unit tests for the Book Controller NOT relying on the database as test data. The structure is already in place, you need to set up the data and write the tests for the following:
   - [ ] listAllBooks
